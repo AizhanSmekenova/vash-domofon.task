@@ -7,6 +7,8 @@ import Users from './pages/UsersPage'
 import UserPosts from './pages/UserPostsPage'
 
 function App() {
+  console.log("test");
+  
   return (
     <BrowserRouter>
       <AuthProvider>
